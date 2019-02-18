@@ -251,17 +251,17 @@ Será explicado também no que consiste cada ambiente de compilação.
         As alterações realizadas na aplicação bem como o pacote com os ficheiros a instalar no ambiente superior, é tudo registado num sharepoint da equipa, de forma a que todas as alterações e pedidos de passagens solicitadas à IBM fiquem registadas.   
             
         3.1.2.1 - Ambiente de desenvolvimento 
-            O ambiente de desenvolvimento, como o nome indica, é o ambiente dedicado ao desenvolvimento de uma nova funcionalidade ou melhoria de uma já existente, no qual é utilizado maioritariamente pelos desenvolvedores, 
+            O ambiente de desenvolvimento, como o nome indica, é o ambiente dedicado ao desenvolvimento de uma nova funcionalidade ou melhoria de uma já existente, no qual é utilizado maioritariamente pelos programadores, 
             no entanto a camada de negócio também tem acesso.
             É neste ambiente onde são iniciados qualquer tipo de desenvolvimento na aplicação, o que em caso caso de algum erro inesperado, existe sempre a possibilidade de um backup a partir do controlo de versões ou a partir da importação do ficheiro 
             alterado através do ambiente de qualidade ou produção.  
-            Após cada desenvolvimento, eram realizados os testes unitários e recolha de evidências, no qual são feitos também pelo o desenvolvedor.  
+            Após cada desenvolvimento, eram realizados os testes unitários e recolha de evidências, no qual são feitos também pelo o programador.  
 
         3.1.2.2 - Ambiente de qualidade
             O ambiente de qualidade é um ambiente que tem como principal interação testar os desenvolvimentos realizados em ambiente de desenvolvimento, que corresponde aos testes de aceitação. 
             Estes testes são realizados pela camada de negócio, especificamente com o responsável pela aplicação, onde a sua finalidade consiste em validar os desenvolvimentos realizados com sucesso para que estes possam prosseguir para o 
             ambiente de produção.
-            Relativamente aos acessos a este ambiente, os desenvolvedores também têm acesso a este ambiente, mas a sua única interação é a validação de que a passagem realizada do ambiente de desenvolvimento para o ambiente de qualidade foi 
+            Relativamente aos acessos a este ambiente, os programadores também têm acesso a este ambiente, mas a sua única interação é a validação de que a passagem realizada do ambiente de desenvolvimento para o ambiente de qualidade foi 
             realizada com sucesso, de maneira a que os novos desenvolvimentos possam ser testados pelo representante da aplicação.
             
         3.1.2.3 - Ambiente de produção
