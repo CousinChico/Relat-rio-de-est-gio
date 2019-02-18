@@ -1,0 +1,297 @@
+Estrutura do relatório:
+
+1 - Introdução
+    1.1 - Objetivo do estágio
+    1.2 - Instituição de acolhimento
+        1.2.1 - Sobre a empresa
+        1.2.2 - Serviços prestados
+        1.2.3 - Objetivos estratégicos
+    1.3 - Estrutura do relatório
+2 - Enquadramento
+    2.1 - Contexto do estágio
+    2.2 - Tecnologias utilizadas
+    2.3 - Metodologia de desenvolvimento de Software
+3 - Desenvolvimento
+    3.1 - Descrição
+        3.1.1 - Objetivos
+        3.1.2 - Ambientes de compilação
+            3.1.2.1 - Ambiente de desenvolvimento 
+            3.1.2.2 - Ambiente de qualidade
+            3.1.2.3 - Ambiente de produção
+        3.1.3 - Code-Review
+    3.2 - Tarefas desenvolvidas
+        3.2 - Simulador de pagamentos
+        3.3 - Siebel
+        3.4 - Softwell Maker
+        3.5
+4 - Conclusão
+Bibliografia
+
+
+
+Titulo - Suporte corretivo e evolutivo a aplicações de apoio ao negócio
+
+Nome completo - Francisco Manuel Espada Cordeiro
+
+Nome completo do orientador na instituição com grau académico e entidade - Eng. André Diogo Almeida, Deloitte
+
+Nome completo do professor com grau académico e entidade - Dr. Luís Carlos da Silva Bruno, IPBeja
+
+
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Resumo
+
+O presente relatório descreve detalhadamente todo o trabalho elaborado no decorrer do estágio curricular. O estágio foi centrado na manutenção corretiva e evolutiva de diversas aplicações de apoio ao negócio, no qual todas as manutenções 
+realizadas foram baseadas em ocorrências criadas por utilizadores como sugestão de melhoria. Por sua vez, estas ocorrências poderiam estar associadas a uma nova funcionalidade na aplicação ou a à correção de uma já existente, de forma a tornar
+todo o sistema limpo, funcional e coerente com as regras de negócio estabelecidas.
+Palavras-chave: (a definir)
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Abstract
+
+
+This report describes in detail all the work done during the curriculum internship. The internship was framed in the corrective and evolutionary maintenance of several business support applications, in which all maintenance
+based on occurrences created by users as a suggestion for improvement. In turn, these occurrences could be associated to a new functionality in the application or to the correction of an existing one, in order to make
+the whole system clean, functional and consistent with established business rules.
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Agradecimentos
+
+
+Em primeiro lugar, gostaria de dirigir os meus sinceros agradecimentos ao meu coordenador de estágio na Deloitte, Eng. André Diogo Almeida, e também ao meu colega Engenheiro Gonçalo Lampreia pela total disponibilidade, orientação e pelo o apoio oferecido 
+desde o meu primeiro dia no projeto, passando também pela elaboração deste relatório.
+A toda a equipa do projeto dirijo também um enorme agradecimentos, que de uma forma direta ou indireta, ajudaram-me de uma forma bastante acessível e contribuíram bastante para toda a aprendizagem do funcionamento do negócio, tanto a nível técnico como 
+também a nível teórico.
+Aos professores Dr. Luís Filipe Nobre Horta Baptista Garcia e Dr. Luis Carlos da Silva Bruno, o meu sincero obrigado por todos os esclarecimentos de dúvidas e atenção prestada.
+Por último, agradeço também à Deloitte e ao Instituto Politécnico de Beja por me terem disponibilizado esta oportunidade de crescer, tanto a nível pessoal como profissional ao integrar neste estagio.  
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+1 - Introdução
+
+
+O presente relatório tem como principal foco descrever todo o trabalho realizado durante os quatro meses de estágio na Deloitte. Neste, através de exemplos concretos, serão demonstrados desenvolvimentos realizados, aproveitando também para elucidar 
+todo o funcionamento da equipa como também a sua dinâmica.
+Apesar do estágio curricular ter sido acordado com um período de 4 meses, percorrendo o mês de outubro até ao final do mês janeiro, o aluno iniciou o seu percurso na Deloitte no início de setembro. O aluno teve a oportunidade de ter inicialmente pequenos eventos
+onde pode conhecer todas as políticas da empresa, como também os seus futuros colegas.
+No intervalo da segunda à quarta semana de setembro o aluno foi convidado a participar em diversas formações no qual corresponderam na sua maioria a temas abordados na licenciatura.
+No início do mês de Outubro o aluno integrou num projeto com o cliente. 
+Este capítulo está dividido em três secções:
+Na primeira secção é clarificado os principais objetivos do estágio curricular.
+A segunda secção corresponde à apresentação da empresa de acolhimento, onde é explicado os serviços que a firma presta, os seus valores e objetivos estratégicos.
+Na terceira secção é explicado de uma forma detalhada toda a estrutura do relatório, referenciando todos os capítulos e os respetivos assuntos.
+Espera-se assim, que este relatório traduza de uma forma detalhada toda a interação e desenvolvimento durante o estágio curricular. 
+
+
+
+
+1.1 - Objetivo do estágio
+
+
+O presente estágio teve como principal objetivo a integração numa equipa de desenvolvimento e suporte aplicacional, como também a aprendizagem do conceito e dinâmica da área de Consultoria.
+A suas principais funções consistiram na manutenção corretiva e evolutiva das aplicações de suporte ao negócio de um cliente do setor financeiro.
+Face a este considerável objetivo, houve também diversos desafios em paralelo, no qual é possível destacar como por exemplo o domínio do conhecimento em alto-nível dos processos de negócios suportado pelas aplicações mantidas pela equipa, 
+como também toda a abordagem de gestão Agile, incluindo metodologia Scrum e Kanban.
+O conhecimento dos processos de desenvolvimento e testes de software em prática no cliente foram também alvo de aprendizagem.    
+
+
+
+
+1.2 - Instituição de acolhimento
+Nesta secção é detalhada a informação sobre a instituição de acolhimento sobre três componentes.
+A primeira componente (1.2.1) é referente ao contexto atual da empresa, a segunda componente (1.2.2) explica os principais valores da Deloitte e a terceira componente (1.2.3) é referente aos objetivos estratégicos.
+
+
+1.2.1 - Sobre a empresa
+A Deloitte é uma organização que atua como firma membro da Deloitte Touche Tohmatsu Limited, uma sociedade privada de responsabilidade limitada do Reino Unido (DTTL).
+A DTTL e cada uma das firmas membro da sua rede são entidades legais separadas e independentes, no qual a mesma não presta serviços a clientes.
+
+A Deloitte é uma empresa que presta serviços profissionais nas seguintes áreas: 
+    Audit & Assurance:
+        -Auditoria financeira, no qual são revistos processos, plataformas e registos de forma a assegurar toda a fidelidade e credibilidade da empresa cliente;
+        -Otimização de processos fiscais.
+    Consulting: 
+        -Serviços relacionados com o desenho, implementação e manutenção de sistemas de informação de apoio à decisão e suporte ao negócio.
+    Financial advisory:
+        -Aumento da performance da empresa cliente através de melhorias nos sistemas de gestão e controlo;
+        -Suporte prático de forma a melhorar a performance financeira e gestão do cash-flow
+    Risk advisory e Tax:
+        -Realização de auditoria interna nas empresas clientes, trabalhando em dados e soluções corporativas de forma a prevenir riscos estratégicos, financeiros e operacionais que possam comprometer seus objetivos de negócios;
+        -Abordagem transversal na identificação das oportunidades de financiamento público para as várias áreas de investimento;
+        -Acompanhamento integrado da totalidade do processo de obtenção de fundos.
+Atualmente a Deloitte tem escritórios em Lisboa e Porto e conta com mais de 2.000 colaboradores. 
+A Deloitte Portugal presta serviços a nível continental como também em Angola, Cabo Verde e em São Tomé e Príncipe.
+
+
+1.2.2 - Valores e objetivos
+A Deloitte detêm diversos valores, competências e ambições, em que estes contribuem de uma forma bastante positiva para todos os resultados finais obtidos.
+A reputação e o padrão de excelência conquistados são credores da busca constate do profissionalismo executado.
+A Deloitte hoje em dia é reconhecida como uma organização capaz de detetar, atrair e desenvolver talento, tendo assim uma visão comum em todas as partes do mundo: ser uma referência de excelência.
+É a partilha de valores e convicções que define e mantém unida a Deloitte em todo o mundo, no qual as seguintes chaves simbolizam o seu mapa genético:
+Integridade;
+Excelência no valor para os mercados e clientes;
+Compromisso mútuo;
+Força na diversidade cultural.
+
+
+1.2.3 - Objetivos estratégicos
+A Deloitte tem o principal objetivo de alcançar o sucesso nos mercados competitivos, incorporando disciplina e ordem com a finalidade de descobrir de uma forma sistemática novas fontes de crescimento.
+Para tal, é possível destacar alguns objetivos definidos:
+Estudo e análise do negócio
+    Onde todo o trabalho realizado com os clientes é analisado detalhadamente com a perspectiva de converter oportunidades e ideias em novos negócios. 
+    Estudo de entregas realizadas que se poderão traduzir em conceitos de negócios que abrangem múltiplos tipos de inovação. 
+    Realização de prototipagem e de testes de forma refinar novas ofertas e acelerar o lançamento e o crescimento da produção.
+O estabelecimento de metodologias próprias: 
+    As metodologias criadas de uma forma particular ajudam os clientes a alcançar mudanças de patamar nas suas taxas de crescimento e, ao mesmo tempo, são transparentes, de fácil entendimento e intuitivos. 
+    Na área de consultoria, as equipas trabalham em conjunto com o cliente, possibilitando a descoberta de barreiras internas de crescimento e a transferência de conhecimento, o que deixa um impacto sustentável no crescimento.
+Dedicação ao cliente e ao seu negócio:
+    A dedicação de identificar, entender e resolver as questões e problemas relevantes em cada projeto é constante, não promovendo um tipo de tecnologia, fornecedor ou fonte de dados.
+
+
+1.3 - Estrutura do relatório
+O presente relatório é composto por quatro capítulos. O primeiro capítulo consiste na introdução do estágio realizado pelo aluno, no qual é detalhada informação sobre os objetivos principais do estágio, como também informação sobre a entidade de acolhimento.
+O segundo capítulo corresponde ao enquadramento do estágio, onde é explicado o contexto do estágio e as tecnologias e metodologias utilizadas.
+O terceiro capítulo descreve os ambientes possíveis de desenvolvimento de software, como também desenvolvimentos relevantes ao cliente.
+Por último, no quarto capítulo, são apresentadas as conclusões concebidas pelo aluno após a realização do estágio.   
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+2 - Enquadramento
+
+Neste capítulo será descrito o enquadramento do estágio realizado pelo aluno através de três secções.
+Na primeira secção é detalhado o contexto do estágio (secção 2.1), em seguida são explicadas as tecnologias utilizadas (secção 2.2) e por fim será detalhado a metodologia de desenvolvimento de software abordada.
+
+
+2.1 - Contexto do estágio
+
+Durante o primeiro mês de estágio o aluno foi integrado na equipa e foi lhe introduzido os métodos de gestão e de desenvolvimento. A leitura de documentação técnica e funcional sobre as aplicações de negócio mantida pela equipa, foi também um encargo 
+importante para o conhecimento do tipo de tecnologias utilizadas, bem como as funcionalidades de cada aplicação e qual a maneira como interagem com o negócio.
+A partir do segundo mês foram atribuídos desenvolvimentos de complexidade baixa e média ao aluno, de forma a que fosse possível que o primeiro contacto prático com as aplicações e as regras de negócio fossem equilibradas na sua compreensão e resolução.   
+Por cada desenvolvimento realizado, o aluno definiu e executou um plano de testes unitário com a finalidade de validar os seus desenvolvimentos tanto com a equipa como também com o cliente. O modelo de testes executado pelo aluno, serve também como modelo 
+para o cliente, sendo este modelo uma estrutura de passos e objetivos a atingir com o desenvolvimento realizado.
+Todas as atividades onde o aluno interagiu foram acompanhadas por elementos seniores da Deloitte, possibilitando assim a transmissão de boas práticas, não só a nível técnico, mas também ao nível da postura profissional.
+Sempre que necessário para a uma compreensão mais aprofundada, foi possibilitado o contacto com os utilizadores finais, não só para um melhor entendimento como também para fomentar as capacidades de comunicação do aluno.
+
+
+
+2.2 - Tecnologias utilizadas
+
+Para os desenvolvimentos realizados sobre as diversas aplicações, foram utilizadas as seguintes tecnologias:
+
+Microsoft ASP.Net - É uma plataforma para desenvolvimento de aplicações web e é o sucessor da tecnologia ASP. Esta framework possibilita o desenvolvimento na sua plataforma a partir de diversas linguagens de programação, sendo C# a linguagem a utilizada.   
+
+Microsoft SQL Server 2012 - Database Engine - É um sistema de gestão de bases de dados relacional, no qual a sua principal função é armazenar, modificar e extrair informação de base de dados através da linguagem SQL.
+
+Softwell Maker - É uma plataforma de desenvolvimento de aplicações web, no qual facilita a criação de formulários e relatórios através das regras de negócio implementadas. A definição de ações e comportamentos do utilizador são definidas através de 
+                 fluxogramas. 
+
+Oracle Siebel - É um CRM pertencente à Oracle, no qual tem como principal finalidade dar suporte ao negócio através da gestão de dados do cliente.
+
+Source Repository TortoiseSVN - É uma ferramenta opensource pertencente à Microsoft com a finalidade de controlo de versões no qual permite gerir diferentes versões do mesmo projeto entre diversos utilizadores;
+
+
+2.3 - Metodologia de desenvolvimento de Software
+
+No intervalo diversificado de metodologias de desenvolvimento de software praticadas atualmente, a metodologia usada pela equipa onde o aluno integrou é a metodologia SCRUM.
+Esta metodologia de desenvolvimento ágil de software é um processo sistemático e estruturado, em que é composto por um conceito sólido mas facilmente adaptado a qualquer equipa que implemente o mesmo.
+O Scrum é uma metodologia de desenvolvimento de software flexível e iterativa, em que tem como principal objetivo a frequente validação do cliente nas entregas realizadas.
+No projeto onde o aluno estagiou, o Scrum é dividido em ciclos de três semanas, que são denominados por sprints.
+Na fase inicial de cada projeto é construida uma lista de funcionalidades (User Stories) a implementar, sendo este artefacto denominado por backlog.
+No início de cada sprint é realizada uma reunião denominada por "Sprint Planning", onde são escolhidas as User Stories de maior prioridade e alocadas individualmente a cada colaborador da equipa.
+Após cada sprint é feita a reunião "Sprint Review / Retrospective", com a finalidade de mostrar os resultados obtidos ao longo do sprint e destacar o pontos positivos e negativos de todo sprint.
+Diariamente, é feita uma pequena reunião de manhã com o objetivo de toda a equipa estar sincronizada. Cada membro pode falar entre um a dois minutos, em que a temática é maioritariamente sobre o estado dos desenvolvimentos de cada um. 
+No projeto onde o aluno foi integrado, todas as cerimónias foram realizadas a rigor, de maneira a que todos os sprints se se realizassem de uma forma correta e coerente com as diretrizes estabelecidas pelo cliente.
+Sendo o projeto de manutenção corretiva e evolutiva, as User Stories adicionadas ao backlog eram sugeridas aos stackeholders através dos utilizadores das aplicações, como base em falhas de de funcionalidades ou adição de uma nova.
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+3 - Desenvolvimento
+Neste capítulo será descrito diversos desenvolvimentos realizados ao longo do estágio, para tal, primeiramente será feita a descrição do processo que é realizado no início de cada sprint, bem com todo o processo durante a realização de uma user story.
+Será explicado também no que consiste cada ambiente de compilação.
+
+
+3.1 - Descrição generalista dos desenvolvimentos
+    Após cada reunião de sprint planning, onde as user stories são atribuídas a cada colaborador, o aluno teve a responsabilidade de, a partir do software Azure DevOps (destinado à gestão de projetos, nomeadamente à gestão de agile), assignar 
+    as suas user stories do sprint atual. Assim, por cada user story, eram adicionadas as seguintes tarefas:
+        -Análise
+        -Desenvolvimento
+        -Testes unitários
+        -Testes integrados
+        -Testes de aceitação
+        -Suporte a testes integrado
+        -Suporte a teste de aceitação
+    Tendo em conta o número de horas de esforço associadas à user story, esse número era distribuído por todas as tarefas de uma forma coerente. 
+    No início do desenvolvimento de cada user story, o aluno fez uma pré análise do que era pretendido, de forma a compreender na totalidade todos os requisitos. Esta pré análise, por sua vez, era validada com o Engenheiro Lampreia.
+    Em casos específicos com dúvidas no que era pretendido, a pré análise realizada era validada com o responsável da aplicação, ou caso necessário com o utilizador final (representante de todos os utilizadores).
+    Após conceber toda a informação necessária para dar inicio ao desenvolvimento, o aluno fez uma análise um nível mais técnico, de forma a proceder ao desenvolvimento corretamente. Esta nova validação apenas era validada com o 
+    engenheiro Lampreia, pois o colega possuía conhecimentos sobre a mesma, de forma a validar a análise num formato independente.
+    No intervalo de dois ou três dias ou aquando justificável, no Azure DevOps, era feita a atualização do estado das tarefas realizadas ou o número de horas aplicadas à mesma, com a finalidade de que o número de horas gastas no sprint
+    acompanhe a linha de burndown. A partir do gráfico seguinte é possível observar um exemplo de um gráfico de BurnDown, onde se verifica que o aluno acompanhou o desenvolvimento das user stories nas horas expectadas. 
+    No caso de um desenvolvimento numa aplicação em que o aluno ainda não tivesse tido com contacto com a mesma, era realizada uma passagem de conhecimento sobre a mesma a um nível mais técnico, de forma a agilizar todo o desenvolvimento 
+    futuro. (colocar imagem)
+
+    3.1.2 - Ambientes de compilação
+        De forma a realizar diversos testes, por diferentes tipos de colaboradores, existe três ambientes de compilação:
+            -Ambiente de desenvolvimento
+            -Ambiente de qualidade
+            -Ambiente de produção 
+        Por cada ambiente, estão alocados no mínimo dois servidores específicos apenas para o ambiente em causa, correspondendo a um servidor de base de dados e a um servidor aplicacional. 
+        Para além destes dois servidores base, poderá ser acrescido também um servidor para SSIS (SQL Server Integration Services), caso seja requerido pela aplicação.
+        Por cada desenvolvimento realizado, no qual este é sempre em ambiente de desenvolvimento, terá de ser feita uma passagem das alterações para o ambiente hierarquicamente superior. Dependendo da aplicação, esta passagem é feita 
+        pela IBM (International Business Machines), em que estes têm a responsabilidade da instalação do pacote com as novas alterações.
+        As alterações realizadas na aplicação bem como o pacote com os ficheiros a instalar no ambiente superior, é tudo registado num sharepoint da equipa, de forma a que todas as alterações e pedidos de passagens solicitadas à IBM fiquem registadas.   
+            
+        3.1.2.1 - Ambiente de desenvolvimento 
+            O ambiente de desenvolvimento, como o nome indica, é o ambiente dedicado ao desenvolvimento de uma nova funcionalidade ou melhoria de uma já existente, no qual é utilizado maioritariamente pelos desenvolvedores, 
+            no entanto a camada de negócio também tem acesso.
+            É neste ambiente onde são iniciados qualquer tipo de desenvolvimento na aplicação, o que em caso caso de algum erro inesperado, existe sempre a possibilidade de um backup a partir do controlo de versões ou a partir da importação do ficheiro 
+            alterado através do ambiente de qualidade ou produção.  
+            Após cada desenvolvimento, eram realizados os testes unitários e recolha de evidências, no qual são feitos também pelo o desenvolvedor.  
+
+        3.1.2.2 - Ambiente de qualidade
+            O ambiente de qualidade é um ambiente que tem como principal interação testar os desenvolvimentos realizados em ambiente de desenvolvimento, que corresponde aos testes de aceitação. 
+            Estes testes são realizados pela camada de negócio, especificamente com o responsável pela aplicação, onde a sua finalidade consiste em validar os desenvolvimentos realizados com sucesso para que estes possam prosseguir para o 
+            ambiente de produção.
+            Relativamente aos acessos a este ambiente, os desenvolvedores também têm acesso a este ambiente, mas a sua única interação é a validação de que a passagem realizada do ambiente de desenvolvimento para o ambiente de qualidade foi 
+            realizada com sucesso, de maneira a que os novos desenvolvimentos possam ser testados pelo representante da aplicação.
+            
+        3.1.2.3 - Ambiente de produção
+            O ambiente de produção é o ambiente onde a aplicação corre diariamente, no qual corresponde à aplicação utilizada pelos os utilizadores finais.
+            É neste ambiente onde são feitos os testes finais aos desenvolvimentos realizados (testes integrados), em que estes são efetuados pelo representante dos utilizadores, ou caso necessário, também são efetuados pelos utilizadores finais.
+
+    3.1.3 - Code-Review
+        O conceito de code-review consiste na revisão do código desenvolvido por um outro membro da equipa, com a finalidade de análise de possíveis ambiguidades, como também na prevenção do impacto que o novo desenvolvimento 
+        terá na segurança da aplicação.
+        Após o término de cada desenvolvimento realizado, foi posto em prática o conceito de code-review com o Engenheiro Lampreia.
+        Assim, com a prática de code-review, foi possível evitar erros futuros, mantendo o código limpo e com as políticas de comentários, espaçamentos e nomenclaturas já existentes e implementadas.
+        No caso de um desenvolvimento numa aplicação que não envolvesse código explicito, a revisão era igualmente essencial, revendo assim todas as alterações realizadas de maneira a que todo o desenvolvimento fosse feito de uma forma limpa e coerente,
+        tanto a nível técnico com o que já estava implementado, como também o que era pretendido inicialmente. 
+        
+            
+3.2 - Tarefas desenvolvidas
+
+    3.2.1-
+    3.2.2-
+    ...
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Conclusão
+
+Com a realização do estágio curricular é possível concluir que a sua adaptação, aprendizagem e evolução foi um desafio bastante interessante, no qual foram aplicados diversos conhecimentos teóricos e práticos obtidos das 
+formações adquiridas inicialmente na empresa.
+Todas as passagens de conhecimento realizadas, tanto pelo engenheiro Lampreia como também pela camada de negócio, foram momentos fulcrais para a aprendizagem de conceitos a nível das regras de negócio como também a níveis técnicos.
+Os conteúdos das Unidades curriculares Engenharia de Software, Tecnologias para a Web e Ambientes Móveis, Bases de Dados 1 e 2 e Programação Orientada a Objetos tiveram uma enorme importância para a realização deste estágio, no qual cada conceito foi 
+aplicada em diferentes conhecimentos correspondentes de cada desenvolvimento realizado.
+Ao longo dos diversos desenvolvimentos foram surgindo pequenas dúvidas, mas com esforço, trabalho e dedicação foi possível superar todos os obstáculos encontrados realizando assim o estágio curricular com sucesso.
+Relativamente ao futuro profissional do aluno, este continuará a pertencer à equipa de manutenção corretiva e evolutiva do projeto atual devido ao seu notável trabalho e dedicação ao mesmo.
